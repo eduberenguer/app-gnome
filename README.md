@@ -1,5 +1,14 @@
 APP-GNOME
 
+[Live Demo](http://app-gnome.surge.sh/#/home)
+
+Usuarios de ejemplo para hacer login y probar la app: 
+Fizwood Clanksspackle  
+Kinthony Wrongpower  
+Tinadette Gyrowhistle  
+Whitwright Fusstorque
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
