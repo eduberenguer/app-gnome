@@ -1,6 +1,6 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
-import {logic} from "../logic";
+import logic from "../logic/index";
 
 class Notices extends React.Component{
     state = {

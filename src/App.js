@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Redirect, Switch} from 'react-router-dom'
 import './styles/index.scss'
-import {logic} from './logic'
+import logic from './logic'
 import Landing from './pages/Landing'
 import Home from './pages/Home'
 import User from './pages/User'

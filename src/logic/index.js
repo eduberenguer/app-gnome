@@ -106,4 +106,5 @@ const logic = {
     },
 }
 
-module.exports = {logic}
+//module.exports = {logic}
+export default logic

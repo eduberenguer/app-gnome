@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom'
 import ReactModal from 'react-modal';
 import Header from '../components/Header'
 import { Footer } from '../components/Footer'
-import { logic } from '../logic'
+import logic from '../logic/index'
 import Notices from "../components/Notices";
 
 class Home extends React.Component {

@@ -46,7 +46,7 @@ class Landing extends React.Component {
                 </p>
                 <div className='container-form'>
                     <div className='form'>
-                        <label className='form-item'>Name:</label>
+                        <p className='form-item'>Name:</p>
                         <input className='form-item' type='text' onChange={this.handleChange} name='name' placeholder='Text input'></input>
                         <div className='errorLogin'>
                             <button className='button' onClick={this.handleLogin}>Login</button>
