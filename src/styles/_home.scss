@@ -1,0 +1,31 @@
+.container-home{
+  display: flex;
+  justify-content: space-around;
+}
+.container-header{
+  display: flex;
+  justify-content: space-between;
+}
+.home-title{
+  font-size: 4em;
+}
+.principal-section{
+  display: flex;
+  justify-content: space-around;
+}
+.container-information{
+  display: flex;
+  flex-direction: column;
+}
+.information-item{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.searchProfession-button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}

@@ -1,0 +1,30 @@
+.container-card{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  float: left;
+}
+.information-card{
+  padding: 2em;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: black solid 2px;
+}
+
+.card-image{
+  width: 150px;
+  height: content-box;
+  border-radius: 15px;
+}
+
+.card-footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}

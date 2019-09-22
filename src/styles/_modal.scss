@@ -1,0 +1,15 @@
+.modal{
+  margin: 80px auto;
+  padding: 10px;
+  border-radius: 5px;
+  width: 20%;
+  background-color: #f6fffd;
+  border: solid black 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.modal li {
+  list-style: none;
+}
