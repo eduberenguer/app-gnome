@@ -40,10 +40,6 @@ class Landing extends React.Component {
         return (
             <div className='landing'>
                 <img className='landing-image' src={image} alt="Landing" />
-                <p className='landing-welcome'>
-                    Welcome, this is the town hall app.
-                    Please, write your name for continue...
-                </p>
                 <div className='container-form'>
                     <div className='form'>
                         <p className='form-item'>Name:</p>

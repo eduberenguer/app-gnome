@@ -3,13 +3,14 @@ $generalImage: '../images/tile_light_bg.jpg';
 $headerImage: '../images/tile_overlayed_bg.jpg';
 $footerImage: '../images/tile_dark_bg.jpg';
 
-#root{
+body{
   background-image: url($generalImage);
-  position:absolute;
-  width:100%;
-  height:100%;
+  position: absolute;
+  width: 100%;
   font-family: $fontFamily;
+  scroll-behavior: initial;
 }
+
 .container-form{
   margin-top: 5px;
   display: flex;

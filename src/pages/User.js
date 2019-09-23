@@ -29,7 +29,7 @@ class User extends React.Component{
                     otherGnome: gnome,
                     flagOther: true
                 })
-            }
+            }else this.setState({errorMessage: 'Gnome not found'})
             return ''
         })
     }
@@ -37,13 +37,14 @@ class User extends React.Component{
         e.preventDefault()
         this.setState({
             flagOther: false,
-            otherNameGnome: ''
+            otherNameGnome: '',
+            errorMessage: ''
         })
     }
 
 
  render() {
-        const { flagOther, otherGnome, otherNameGnome } = this.state
+        const { flagOther, otherGnome, otherNameGnome, errorMessage } = this.state
      return(
          <div>
              <Header returnPage={true}/>
@@ -54,7 +55,7 @@ class User extends React.Component{
                  <button onClick={this.clearResults}>Clear Results</button>
              </form>
              <Card />
-             {flagOther ? <Card otherGnome={otherGnome} /> : ''}
+             {flagOther ? <Card otherGnome={otherGnome} /> : <p className='errorLogin'>{errorMessage}</p>}
              <Footer />
          </div>
      )
