@@ -1,6 +1,6 @@
 APP-GNOME
 
-[Live Demo](http://app-gnome.surge.sh/#/home)
+[Live Demo](http://gnome-app.surge.sh)
 
 Usuarios de ejemplo para hacer login y probar la app: 
 Fizwood Clanksspackle  
